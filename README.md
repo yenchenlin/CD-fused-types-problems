@@ -22,7 +22,7 @@ And since `const = alpha / dual_norm_XtA`, the difference of `dual_norm_XtA` bet
 
 And the reason why there's a difference of `dual_norm_XtA` between two data types is [here](https://github.com/yenchenlin/scikit-learn/blob/cd-fused-types-problems/sklearn/linear_model/cd_fast.pyx#L271-L274), which seems like a precision issues.
 
-## Fitted Modle difference
+## Fitted Model difference
 
 - `np.float64` data 
 ```
